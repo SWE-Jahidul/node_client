@@ -68,6 +68,7 @@ app.get("/register", (req, res) => {
       data,
       message: "User lists retrieved successfully",
     });
+    res.send("test")
   });
 });
 
