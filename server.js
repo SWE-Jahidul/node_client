@@ -75,7 +75,7 @@ app.get("/insert/users/data",(req,res)=>{
     })
 })
 
-app.get("/key",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("hello world");
    
 })
